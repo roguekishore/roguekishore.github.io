@@ -25,9 +25,10 @@ function About() {
 
                 <div className="about-para">I am Kishore N E, an accomplished Computer Science and Engineering (B.E. CSE)
                     student, competitive programmer, cloud architect, web developer, frontend developer and backend architect.
-                    I am fueled by a strong foundation in algorithms and data structures honed through consistent competitive programming
-                    (Linked Lists are the best). I excel at translating complex logical challenges into efficient, well-structured code, and developing robust
-                    and user-centric software applications.
+                    I am fueled by a strong foundation in algorithms and data structures honed through consistent competitive programming.
+                     I excel at translating complex logical challenges into efficient, well-structured code, and developing robust
+                    and user-centric software applications. Driven by unconventional thinking, I'm not afraid to break established norms
+                    to engineer solutions that push beyond the ordinary.
                 </div>
 
                 <div className='hero-para'>Maverick.</div>

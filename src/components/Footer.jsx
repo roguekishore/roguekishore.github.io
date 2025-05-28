@@ -61,14 +61,14 @@ function Footer() {
                                     <FaGithub className="social-icon" />
                                     Github
                                 </a>
-                                <a href={leetcodeUrl} target="_blank" rel="noopener noreferrer" className="contact-link">
+                                {/* <a href={leetcodeUrl} target="_blank" rel="noopener noreferrer" className="contact-link">
                                     <SiLeetcode className="social-icon" />
                                     Leetcode
                                 </a>
                                 <a href={resumeUrl} target="_blank" rel="noopener noreferrer" className="contact-link">
                                     <IoDocumentText className="social-icon" />
                                     Resume
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>

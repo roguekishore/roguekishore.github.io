@@ -79,7 +79,7 @@ function Projects() {
                                     </h1>
                                 </div>
                                 <div className="project-description">
-                                    <p>An e-book store with a clean, responsive interface for users to effortlessly browse, search by title, author, or category, and manage their cart.</p>
+                                    <p>An e-book store with a clean, responsive interface for users to effortlessly browse, search by title, author, or category, and manage their cart. (Please visit in Desktop)</p>
                                 </div>
                                 <div className="project-stack">
                                     <div className="stack-item"><FaReact /><p>React</p></div>
@@ -129,7 +129,7 @@ function Projects() {
                                     <p>St. Josephs MHSS is my alma mater, an excellent school with best management for both academics and sports.</p>
                                 </div>
                                 <div className="project-stack">
-                                    <div className="stack-item"><FaHtml5 /><p>CSS</p></div>
+                                    <div className="stack-item"><FaHtml5 /><p>HTML</p></div>
                                     <div className="stack-item"><FaCss3Alt /><p>CSS</p></div>
                                     <div className="stack-item"><FaPhp /><p>PHP</p></div>
                                     <div className="stack-item"><FaJsSquare /><p>Javascript</p></div>
@@ -221,7 +221,7 @@ function Projects() {
                                 <a href="/">
                                     <button className="project-button"><MdOutlineLaunch />Live Website</button>
                                 </a>
-                                <a href="/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/roguekishore/Portfolio" target="_blank" rel="noopener noreferrer">
                                     <button className="project-button"><SiGithub />GitHub Repo</button>
                                 </a>
                             </div>
@@ -252,9 +252,8 @@ function Projects() {
                                 </div>
                             </div>
                             <div className="project-image">
-                                <a href="https://www.example.com/journal-app-demo" target="_blank" rel="noopener noreferrer">
+                                
                                     <img src={journal} alt="Journal App Demo"></img>
-                                </a>
                             </div>
                             <div className="project-footer">
                                 
