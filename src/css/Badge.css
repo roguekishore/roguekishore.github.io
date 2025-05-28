@@ -1,0 +1,65 @@
+@property --border-angle {
+    inherits: false;
+    initial-value: 0deg;
+    syntax: '<angle>';
+}
+
+.badge-container {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, #000000, #000000 50%, #000000) padding-box, 
+    conic-gradient(from var(--border-angle), #ffffff1f 80%, #a6a1a1 86%, 
+    #ffffff 90%, #c3bebe 94%, rgb(246 246 246 / 48%)) border-box;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    animation: border 8s linear infinite;
+    
+}
+
+.badge-content {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffffff03;
+    box-shadow: inset 0 -4px 12px #ffffff0f;
+    padding: 0.25rem 1rem;
+    font-size: 0.875rem;
+    color: white;
+    
+}
+
+.badge-star {
+    display: inline-block;
+    animation: rotate 4s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0%, 37.5% {
+        transform: rotate(0deg);
+    }
+    62.5% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes border {
+    to {
+        --border-angle: 360deg;
+    }
+}
+
+@property --border-angle {
+    inherits: false;
+    initial-value: 0deg;
+    syntax: '<angle>';
+}
+
+@media screen and (max-width: 768px) {
+    .badge-content {
+        font-size: 0.75rem;
+    }
+}

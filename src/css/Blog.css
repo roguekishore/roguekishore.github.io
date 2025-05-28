@@ -1,0 +1,23 @@
+.blog-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.blog-container {
+    border: 1px solid red;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blog {
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+}

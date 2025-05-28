@@ -1,0 +1,109 @@
+.noir-wrapper {
+  background-color: var(--body-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #1b1b1b;
+  position: relative;
+}
+
+.noir-container-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 3rem;
+  max-width: 900px;
+  width: 100%;
+}
+
+.noir-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+@media (min-width: 769px) {
+  .noir-container-outer {
+    overflow: hidden;
+  }
+  .noir-container {
+    display: flex;
+    gap: 20px;
+    animation: slide 50s linear infinite;
+    width: max-content;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.noir-container:hover {
+  animation-play-state: paused;
+}
+
+.noir-card-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 75px;
+  width: 75px;
+  flex-shrink: 0;
+}
+
+.noir-card-content {
+  position: absolute;
+  inset: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: 1px solid #1b1b1b;
+}
+
+.noir-icon {
+  color: #a6a6a6;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.noir-card-wrapper:hover .noir-icon {
+  color: white;
+}
+
+.noir-card-wrapper:hover .noir-card-content {
+  background: #1b1b1b;
+  border: #1b1b1b 1px solid;
+}
+
+.purple-line-technologies {
+  background-color: white;
+  width: 6rem;
+  height: 2px;
+  inset: 1px auto auto 0;
+  box-shadow: 0 33px 80px #fce48f99, 0 16px 40px #bb8ffca3,
+    0 10px 24px #fce48f7a, 0 12px 24px #bb8ffc8f, 0 4.2px 10.5px #fce48f4d,
+    0 2.5px 6.25px #bb8ffc40, 0 1.5px 3.6px #fce48f33, 0 0.66px 1.6px #bb8ffc24;
+}
+
+/* .noir-card-content {
+  transition: background 0.3s ease;
+}
+
+.noir-card-wrapper:hover .noir-card-content {
+  background: var(--hover-color) !important;
+}
+
+.noir-card-wrapper:hover .noir-icon {
+  color: white !important;
+  filter: brightness(0) invert(1);
+} */

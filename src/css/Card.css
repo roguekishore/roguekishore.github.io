@@ -1,0 +1,46 @@
+@property --border-angle {
+    inherits: false;
+    initial-value: 0deg;
+    syntax: '<angle>';
+}
+
+.card-container {
+        background: linear-gradient(45deg, #000000, #000000 50%, #000000) padding-box, 
+        conic-gradient(from var(--border-angle), rgb(27 27 27) 80%, #a6a1a1 86%, 
+        #ffffff 90%, #c3bebe 94%, rgb(246 246 246 / 48%)) border-box;
+    border: 1px solid transparent;
+    animation: border 13s linear infinite;
+}
+
+.card-content {
+    
+}
+
+.star {
+    display: inline-block;
+    animation: rotate 8s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0%, 37.5% {
+        transform: rotate(0deg);
+    }
+    62.5% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes border {
+    to {
+        --border-angle: 360deg;
+    }
+}
+
+@property --border-angle {
+    inherits: false;
+    initial-value: 0deg;
+    syntax: '<angle>';
+}
