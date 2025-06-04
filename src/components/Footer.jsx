@@ -10,7 +10,7 @@ function Footer() {
     const [emailCopied, setEmailCopied] = useState(false);
 
     const emailAddress = "contactforkishore@gmail.com";
-    const linkedinUrl = "https://www.linkedin.com/in/mavriq/"; 
+    const linkedinUrl = "https://www.linkedin.com/in/-maverick/"; 
     const githubUrl = "https://github.com/roguekishore";       
     const leetcodeUrl = "https://leetcode.com/kishoren26/";   
     const resumeUrl = "/Kishore_N_E_Resume.pdf";           
