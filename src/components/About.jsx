@@ -47,7 +47,7 @@ function About() {
                     <>
                         <Badge><span className='badge-star'>✦</span>Experience</Badge>
 
-                        <div className="experience-wrapper">
+                        {/* <div className="experience-wrapper">
                             <div className="experience-container">
                                 <div className="purple-line-container-about-ins">
                                     <div className="purple-line-about-ins"></div>
@@ -62,7 +62,7 @@ function About() {
                                     <p>May 2025 - June 2025</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         <Badge><span className='badge-star'>✦</span>Education</Badge>
 
